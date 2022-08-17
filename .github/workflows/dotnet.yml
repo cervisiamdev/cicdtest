@@ -24,8 +24,8 @@ jobs:
     - name: Archive artifacts
       uses: actions/upload-artifact@main
       with:
-        name: dist
-        path: dist
+        name: build
+        path: /home/runner/work/cicdtest/cicdtest/bin/debug/net6.0
   deploy:
       name: Deploy
       needs: build
