@@ -37,7 +37,7 @@ jobs:
          uses: actions/download-artifact@main
          with:
            name: build
-           path: /home/runner/work/cicdtest/cicdtest/cicdtest/bin/Debug/net6.0
+           path: /home/runner/work/cicdtest/
        - name: Sync files to hosting
          uses: SamKirkland/FTP-Deploy-Action@4.3.0
          with:
