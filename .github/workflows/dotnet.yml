@@ -25,7 +25,7 @@ jobs:
       uses: actions/upload-artifact@main
       with:
         name: build
-        path: /home/runner/work/cicdtest/cicdtest/bin/debug/net6.0
+        path: /home/runner/work/cicdtest/cicdtest/src/cicdtest/bin/Debug/net6.0/publish/
   deploy:
       name: Deploy
       needs: build
