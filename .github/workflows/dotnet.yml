@@ -44,5 +44,5 @@ jobs:
           server: 178.154.231.185
           username: ${{ secrets.FTP_LOGIN }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./net6.0/
+          local-dir: /home/runner/work/cicdtest/cicdtest/cicdtest/bin/Debug/net6.0
           server-dir: ./cicdtest/
